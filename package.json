@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "A trading bot for the namebase exchange.",
   "main": "./lib/exchange.js",
-  "scripts": {},
+  "scripts": {
+    "test": "node ./test/testEndpoints.js"
+  },
   "author": "Anthony Liu",
   "license": "MIT",
   "dependencies": {
