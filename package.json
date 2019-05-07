@@ -1,6 +1,6 @@
 {
   "name": "namebase-exchange-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An easy-to-use Node.js interface for the Namebase exchange.",
   "main": "./lib/exchange.js",
   "scripts": {
