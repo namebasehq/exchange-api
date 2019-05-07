@@ -3,9 +3,7 @@
   "version": "0.0.0",
   "description": "A trading bot for the namebase exchange.",
   "main": "./lib/exchange.js",
-  "scripts": {
-    "dummy": "node ./scripts/makeRandomTrades.js"
-  },
+  "scripts": {},
   "author": "Anthony Liu",
   "license": "MIT",
   "dependencies": {
