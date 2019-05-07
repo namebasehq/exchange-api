@@ -1,0 +1,14 @@
+{
+  "name": "exchange-bot",
+  "version": "0.0.0",
+  "description": "A trading bot for the namebase exchange.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Liu",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  }
+}
