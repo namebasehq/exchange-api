@@ -1,7 +1,7 @@
 {
-  "name": "exchange-bot",
+  "name": "namebase-exchange-api",
   "version": "0.0.0",
-  "description": "A trading bot for the namebase exchange.",
+  "description": "An easy-to-use Node.js interface for the Namebase exchange.",
   "main": "./lib/exchange.js",
   "scripts": {
     "test": "node ./test/testEndpoints.js"
