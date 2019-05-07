@@ -9,6 +9,7 @@
   "author": "Anthony Liu",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^8.0.0"
+    "dotenv": "^8.0.0",
+    "node-fetch": "^2.5.0"
   }
 }
