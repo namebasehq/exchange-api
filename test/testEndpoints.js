@@ -12,6 +12,7 @@ async function log(name, ...parameters) {
   console.log(`--- Executing ${name}() ---\n`);
   console.log(result);
   console.log('\n\n');
+  return result;
 }
 
 (async () => {
