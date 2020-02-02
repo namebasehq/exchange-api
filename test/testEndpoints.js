@@ -20,7 +20,7 @@ async function log(name, ...parameters) {
   await log('depth', namebase.HNSBTC);
   await log('priceTicker', namebase.HNSBTC);
   await log('bookTicker', namebase.HNSBTC);
-  await log('supplyTicker', namebase.HNSBTC);
+  await log('supplyTicker', namebase.HNS);
   await log('klinesTicker', namebase.HNSBTC, namebase.ONE_HOUR, null, null, 2);
   await log('dayTicker', namebase.HNSBTC);
   await log('trades', namebase.HNSBTC, null, 2);
@@ -31,4 +31,4 @@ async function log(name, ...parameters) {
   await log('depositAddress', namebase.HNS);
   await log('depositHistory', namebase.HNS);
   await log('withdrawalHistory', namebase.BTC);
- )();
+})();
