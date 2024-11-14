@@ -10,7 +10,7 @@ Here is some sample code demonstrating how to use this package. First, go to htt
 Note: this is not a comprehensive enumeration of the supported features. Read the source code for a full list. The raw API documentation can be found here: https://github.com/namebasehq/exchange-api-documentation/
 
 ```javascript
-const namebase = require('namebase-exchange-api');
+const namebase = require('@namebasehq/exchange-api');
 const exchange = new namebase.Exchange(
   /* ACCESS KEY */,
   /* SECRET KEY */

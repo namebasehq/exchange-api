@@ -1,14 +1,19 @@
 {
-  "name": "namebase-exchange-api",
-  "version": "0.0.9",
+  "name": "@namebasehq/exchange-api",
+  "version": "0.0.10",
   "description": "An easy-to-use Node.js interface for the Namebase exchange.",
   "main": "./lib/exchange.js",
   "scripts": {
     "test": "node ./test/testEndpoints.js"
   },
+  "homepage": "https://github.com/namebasehq/exchange-api/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/namebasehq/exchange-api.git"
+  },
   "author": "Anthony Liu",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^2.5.0"
+    "node-fetch": "~2.6.13"
   }
 }
